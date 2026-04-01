@@ -66,8 +66,9 @@ void hasilPrima() {
 
 // Membuat fungsi untuk menampilkan hasil cek bilangan fibonacci
 void hasilFibonacci() {
-    input();
+    input(); // memanggil fungsi input untuk memasukkan angka
 
+    // memanggil fungsi cekFibonacci untuk mengecek apakah angka yang dimasukkan adalah bilangan fibonacci atau bukan, jika benar maka akan menampilkan pesan bahwa angka tersebut adalah bilangan fibonacci, jika
     if (cekFibonacci(n))
         cout << "Angka Anda Adalah Bilangan Fibonacci"<< endl;
     else
