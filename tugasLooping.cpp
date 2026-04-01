@@ -30,7 +30,8 @@ bool cekPrima(int n){
     // mendeklrasikan variabel i untuk melakukan perulangan mulai dari angka 2 hingga n-1
     int i = 2;
     while (i < n) { // melakukan perulangan selama i kurang dari n
-        if (n % i == 0 )
+        //melakukan perulangan untuk mengecek apakah angka habis dibagi oleh angka lain selain 1 dan dirinya sendiri dan jika habis dibagi maka angka tersebut bukan bilangan prima
+        if (n % i == 0 ) 
         return false;
         i++;
     }
