@@ -26,10 +26,10 @@ bool cekPrima(int n){
     // mengecek apakah angka kurang dari atau sama dengan 1
     if (n <= 1) 
     return false;
-    
+
+    // mendeklrasikan variabel i untuk melakukan perulangan mulai dari angka 2 hingga n-1
     int i = 2;
     while (i < n) {
-
         if (n % i == 0 )
         return false;
         i++;
