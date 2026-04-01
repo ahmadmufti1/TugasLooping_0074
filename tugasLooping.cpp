@@ -80,24 +80,24 @@ int main() {
     while (true) { // melakukan perulangan selama kondisi benar
         menu(); // memanggil fungsi menu untuk menampilkan menu pilihan
 
-        switch (pilihan) {
+        switch (pilihan) { // melakukan switch case untuk mengecek pilihan yang dimasukkan oleh pengguna
 
-        case 1:
+        case 1: // jika pilihan 1 maka akan memanggil fungsi hasilPrima untuk menampilkan hasil cek bilangan prima
             hasilPrima();
             break;
 
-        case 2:
+        case 2: // jika pilihan 2 maka akan memanggil fungsi hasilFibonacci untuk menampilkan hasil cek bilangan fibonacci
             hasilFibonacci();
             break;
 
-        case 0:
+        case 0: // jika pilihan 0 maka akan menampilkan pesan bahwa program selesai dan keluar dari program
             cout << "Program selesai\n";
             return 0;
 
-        default:
+        default: // jika pilihan yang dimasukkan tidak valid maka akan menampilkan pesan bahwa pilihan tidak valid
             cout << "Pilihan tidak valid\n";
         }
     }
 
-    return 0;
+    return 0; // mengembalikan nilai 0 untuk menandakan bahwa program selesai dengan sukses
 }
