@@ -74,3 +74,30 @@ void hasilFibonacci() {
     else
         cout << "Angka Anda Bukan Bilangan Fibonacci\n";
 }
+
+// Fungsi utama
+int main() {
+    while (true) {
+        menu();
+
+        switch (pilihan) {
+
+        case 1:
+            hasilPrima();
+            break;
+
+        case 2:
+            hasilFibonacci();
+            break;
+
+        case 0:
+            cout << "Program selesai\n";
+            return 0;
+
+        default:
+            cout << "Pilihan tidak valid\n";
+        }
+    }
+
+    return 0;
+}
