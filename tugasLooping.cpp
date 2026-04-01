@@ -23,6 +23,7 @@ void input() {
 
 // Membuat fungsi untuk mengecek bilangan prima
 bool cekPrima(int n){
+    // mengecek apakah angka kurang dari atau sama dengan 1
     if (n <= 1) 
     return false;
     
