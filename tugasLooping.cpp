@@ -14,3 +14,9 @@ void menu() {
     cout << "Pilih menu: ";
     cin >> pilihan;
 }
+
+// Fungsi input angka
+void input() {
+    cout << "Masukkan angka: ";
+    cin >> n;
+}
