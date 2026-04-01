@@ -37,3 +37,17 @@ bool cekPrima(int n){
     }
     return true;
 }
+
+// Membuat fungsi untuk mengecek bilangan fibonacci
+bool cekFibonacci(int n){ 
+    int a = 0, b = 1, c = 0;
+    while (c < n) {
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    if ( n == 0 || n == b)
+        return true;
+    else
+        return false;
+}
