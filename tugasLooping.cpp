@@ -39,7 +39,7 @@ bool cekPrima(int n){
 }
 
 // Membuat fungsi untuk mengecek bilangan fibonacci
-bool cekFibonacci(int n){ 
+bool cekFibonacci(int n){  // mendeklrasikan variabel a, b, dan c untuk menyimpan nilai dari bilangan fibonacci
     int a = 0, b = 1, c = 0;
     while (c < n) {
         c = a + b;
