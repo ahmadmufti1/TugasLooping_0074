@@ -77,8 +77,8 @@ void hasilFibonacci() {
 
 // Fungsi utama
 int main() {
-    while (true) {
-        menu();
+    while (true) { // melakukan perulangan selama kondisi benar
+        menu(); // memanggil fungsi menu untuk menampilkan menu pilihan
 
         switch (pilihan) {
 
