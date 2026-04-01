@@ -46,6 +46,7 @@ bool cekFibonacci(int n){  // mendeklrasikan variabel a, b, dan c untuk menyimpa
         a = b; // menyimpan nilai b ke dalam variabel a
         b = c; // menyimpan nilai c ke dalam variabel b
     }
+    // mengecek apakah nilai c sama dengan n atau nilai b sama dengan n, jika salah satu dari kondisi tersebut benar maka angka tersebut adalah bilangan fibonacci
     if ( n == 0 || n == b)
         return true;
     else
