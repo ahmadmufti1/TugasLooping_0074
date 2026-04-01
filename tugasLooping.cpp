@@ -64,3 +64,12 @@ void hasilPrima() {
         cout << "Angka Anda Bukan Bilangan Prima"<< endl;
 }
 
+// Membuat fungsi untuk menampilkan hasil cek bilangan fibonacci
+void hasilFibonacci() {
+    input();
+
+    if (cekFibonacci(n))
+        cout << "Angka Anda Adalah Bilangan Fibonacci"<< endl;
+    else
+        cout << "Angka Anda Bukan Bilangan Fibonacci\n";
+}
