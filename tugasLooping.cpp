@@ -42,9 +42,9 @@ bool cekPrima(int n){
 bool cekFibonacci(int n){  // mendeklrasikan variabel a, b, dan c untuk menyimpan nilai dari bilangan fibonacci
     int a = 0, b = 1, c = 0; 
     while (c < n) { // melakukan perulangan selama nilai c kurang dari n
-        c = a + b;
-        a = b;
-        b = c;
+        c = a + b; // menghitung nilai c dengan menjumlahkan nilai a dan b
+        a = b; // menyimpan nilai b ke dalam variabel a
+        b = c; // menyimpan nilai c ke dalam variabel b
     }
     if ( n == 0 || n == b)
         return true;
