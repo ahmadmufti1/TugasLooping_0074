@@ -29,7 +29,7 @@ bool cekPrima(int n){
 
     // mendeklrasikan variabel i untuk melakukan perulangan mulai dari angka 2 hingga n-1
     int i = 2;
-    while (i < n) {
+    while (i < n) { // melakukan perulangan selama i kurang dari n
         if (n % i == 0 )
         return false;
         i++;
