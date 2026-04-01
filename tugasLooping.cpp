@@ -55,8 +55,9 @@ bool cekFibonacci(int n){  // mendeklrasikan variabel a, b, dan c untuk menyimpa
 
 // Membuat fungsi untuk menampilkan hasil cek bilangan prima
 void hasilPrima() {
-    input();
+    input(); // memanggil fungsi input untuk memasukkan angka
 
+    // memanggil fungsi cekPrima untuk mengecek apakah angka yang dimasukkan adalah bilangan prima atau bukan, jika benar maka akan menampilkan pesan bahwa angka tersebut adalah bilangan prima, jika
     if (cekPrima(n))
         cout << "Angka Anda Adalah Bilangan Prima"<< endl;
     else
